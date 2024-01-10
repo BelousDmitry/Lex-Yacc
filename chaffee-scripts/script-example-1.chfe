@@ -1,0 +1,66 @@
+i = 0;
+j = 10;
+
+while i < j{
+     i = i + 1;
+     if i == 5{
+          print "five";
+     
+     else{
+          print i;
+     }
+
+     end_if;
+     }
+
+     end_while;
+}
+
+
+
+
+
+
+i = 0;
+j = 5;
+k = 2;
+
+if 2 == k { 
+     print "true"; 
+     
+     if 2 < 1 { 
+          while 2 > 1 {
+               i = i + 1;
+               print "false";
+               end_while;
+          }
+
+     else {
+          while i < j {
+               i = i + 1;
+               print "true";
+               end_while;
+          }
+     } 
+     end_if; }
+
+          
+     if 2 == 3 { 
+          print "false";
+     else {
+          print "true";
+     } 
+     end_if; } 
+     
+     print "true";
+
+end_if; }
+
+print "hello world";
+
+
+
+
+
+
+.

@@ -1,0 +1,78 @@
+
+
+
+func (matchNumber) {       
+    if i == 1
+    {
+        print "one";
+    end_if;
+    }
+
+    if i == 2
+    {
+        print "two";
+    end_if;
+    }
+
+    if i == 3
+    {
+        print "three";
+    end_if;
+    }
+
+    if i == 4
+    {
+        print "four";
+    end_if;
+    }
+
+    if i == 5
+    {
+        print "five";
+    end_if;
+    }
+    end_func;
+}
+
+
+
+func (hash) {
+    print i;
+    call (matchNumber);
+   end_func; 
+}
+
+
+i = 3;
+call (hash);
+
+i = 5;
+call (hash);
+
+
+
+
+
+
+i = 1;
+call (matchNumber);
+
+i = 2;
+call (matchNumber);
+
+i = 3;
+call (matchNumber);
+
+i = 4;
+call (matchNumber);
+
+i = 5;
+call (matchNumber);
+
+
+
+
+
+
+
+.

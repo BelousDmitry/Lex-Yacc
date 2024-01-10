@@ -1,0 +1,93 @@
+
+
+
+func (double) {
+    i = i * 2;
+    end_func;
+}
+
+
+j = 0;
+i = 2;
+
+if i == 2{
+
+    while j < 10{
+        j = j + 1;
+        call (double);
+        print i;
+    end_while;}
+
+end_if;}
+
+
+
+
+
+i = 1 - 2;
+j = 2;
+
+if i < j {
+    print i;
+    if i > 0 {
+        print "bigger than zero";
+    else{
+        if i == 0 {
+            print "equal zero";
+        else{
+            print "less than zero";
+        }
+        end_if;}
+
+    }
+    end_if;}
+
+end_if;}
+
+
+
+i = 0;
+j = 2;
+
+if i == 0 {
+    print i;
+    print "True";
+    
+end_if;}
+
+
+if i > j {
+    print "Won't be printed";
+    print "Won't be printed";
+    
+else{
+    print "Will be printed";
+    print "Will be printed as well";
+}
+end_if;}
+
+
+if i < j {
+    print "Will be printed";
+    print "Will be printed as well";
+    
+else{
+    print "Won't be printed";
+    print "Won't be printed";
+}
+end_if;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
