@@ -1,8 +1,7 @@
 # Creating an interpreted language using Lex & Yacc
 
 Simple interpreted language "chaffee" was created using two Unix utilities Lex & Yacc. The file with the language logic is `chaffee.y`.
-
-
+There are some scripts available as examples:
 ```
 chaffee.exe < chaffee-scripts\script-example-1.chfe
 ```
