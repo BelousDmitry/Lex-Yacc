@@ -5,7 +5,6 @@ Simple interpreted language "chaffee" was created using two Unix utilities Lex &
 
 ```
 chaffee.exe < chaffee-scripts\script-example-1.chfe
-
 ```
 
 ## if
@@ -15,7 +14,6 @@ i = 10;
 j = 20;
 if i < j { print "i is less"; end_if;}
 i is less
-
 ```
 ## while
 ```
@@ -28,7 +26,6 @@ while i < j { i = i + 2; print i; end_while;}
 6
 8
 10
-
 ```
 ## Functions
 Functions use “global” variables and do not have parameters. You must initialize/change the variable before calling the function to see the necessary result.
@@ -42,5 +39,4 @@ print i;
 call (double);
 print i;       
 40
-
 ```
