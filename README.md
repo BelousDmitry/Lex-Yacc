@@ -1,6 +1,12 @@
 # Creating an interpreted language using Lex & Yacc
 
+Simple interpreted language "chaffee" was created using two Unix utilities Lex & Yacc. The file with the language logic is `chaffee.y`.
 
+
+```
+chaffee.exe < chaffee-scripts\script-example-1.chfe
+
+```
 
 ## if
 ```
@@ -12,7 +18,6 @@ i is less
 
 ```
 ## while
-
 ```
 D:\chaffee-language>chaffee.exe
 i = 0;
@@ -25,7 +30,6 @@ while i < j { i = i + 2; print i; end_while;}
 10
 
 ```
-
 ## Functions
 Functions use “global” variables and do not have parameters. You must initialize/change the variable before calling the function to see the necessary result.
 ```
